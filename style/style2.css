@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&family=Eater&family=Metal+Mania&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;1,100&display=swap');
+
+*{
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #393939;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+}
+
+h3 {
+    color: #ff7e2f;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center; 
+}
+
+h2 {
+    color: #dd5a43;
+    font-weight: 500;
+    font-size: 34px;
+    text-align: center; 
+}
+
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.silakan{
+    text-align: left;
+    border-bottom: 0.5px solid #478fca28;
+    color: #478fca;
+}
+
+.silakan h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.user i{
+    margin: 4px;
+}
+
+input{
+    width: 90%;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background: #478fca;
+    color: white;
+    padding: 7px 22px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.masuk{
+    display: flex;
+    justify-content: center;
+}
+
+.masuk a{
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.register button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.center-box {
+    padding: 0px 100px; 
+    /* border-radius: 8px; */
+}
+
+.center-box-content {
+    text-align: left;
+}
