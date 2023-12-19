@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&family=Eater&family=Metal+Mania&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;1,100&display=swap');
+
+*{
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: #393939;
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    color: #ff7e2f;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+h2{
+    color: #dd5a43;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    background: #f7f7f7;
+    width: 362px;
+    color: #909090;
+    padding: 34px;
+    box-shadow: 0 0 12px 0 #478fca;
+    margin-top: 60px;
+    z-index: 100;
+}
+
+::placeholder{
+    color: #c5c5cb;
+}
+.forgot{
+    background: #478fca;
+    width: 362px;
+    padding: 13px 20px;
+    justify-content: baseline;
+    text-align: left;
+    color: #ffee99;
+    font-size: 14px;
+    box-shadow: 0 3px 8px 0 #478fca;
+}
+
+.silakan{
+    text-align: left;
+    border-bottom: 0.5px solid #478fca28;
+    color: #478fca;
+}
+
+.silakan h4{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.user{
+    border: 1px solid #9090904e;
+    padding: 5px 0 5px 5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 12px 0;
+    transition: .3s;
+    background: white;
+    height: 28px;
+}
+
+.user:hover{
+    border: 1px solid rgba(0, 0, 0, 0.326);
+}
+
+.user:focus-within{
+    border: 1px solid #ff7e2f;
+    color: #478fca;
+}
+
+.user i{
+    margin: 4px;
+}
+
+.user.fullname{
+    margin-top: 25px;
+}
+
+.soal{
+    background: #888844;
+    padding: 26px 20px;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.user.captcha{
+    margin-top: 0;
+}
+
+.box p{
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+
+.unduh a{
+    color: white;
+    line-height: 1.5;
+}
+
+.fa-file-pdf-o{
+    margin-left: 20px;
+}
+
+.unduh a:hover{
+    text-decoration: underline;
+}
+
+.info{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 60px;
+    padding-bottom: 10px;
+}
+
+.unduh{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 14.5px;
+    line-height: 1.5;
+    padding: 8px;
+}
+
+.unduh h4{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+}
+
+input{
+    width: 90%;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background: #478fca;
+    color: white;
+    padding: 7px 22px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.login{
+    text-align: right;
+    justify-content: right;
+    display: flex;
+}
+
+.kalender{
+    border-bottom: 1px solid white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.masuk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.masuk a{
+    margin-top: 20px;
+}
+
+.container-left {
+    position: fixed;
+    margin: 0;
+    margin-left: 130px;
+}
+
+.container-right{
+    margin-left: 620px;
+    margin-right: 40px;
+}
+
+@media (max-width: 1008px) {
+    body{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .container-left{
+        position: static;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-right{
+        margin: 0;
+        width: 100%;
+    }
+
+    embed{
+        width: 100%;
+    }
+}
